@@ -1,0 +1,27 @@
+.gadgets-list {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.gadgets-item {
+  position: relative;
+}
+.work-item__title {
+  position: relative;
+  bottom: 163px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  padding: 27px 0;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.6),
+    rgba(47, 48, 58, 0.7)
+  );
+}
+.working-imgs {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 94px;
+}
