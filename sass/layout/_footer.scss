@@ -7,24 +7,50 @@
 .footer-container {
   display: flex;
 }
-.web-studio-f {
+.address--container__link {
   font-family: $second-family;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.logo-web-f {
+.address--container__logo-w {
   color: #2196f3;
 }
-.logo-studio-f {
+.address--container__logo-s {
   color: #ffffff;
+}
+.web-address {
+  margin-top: 20px;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-style: normal;
+}
+.footer--list__email {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer--list__number {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .join-container {
   margin-left: 70px;
   padding-right: 93px;
 }
-.join-title {
+.join--container__title {
   font-family: $font-family;
   font-weight: 700;
   font-size: 14px;
@@ -39,12 +65,12 @@
   justify-content: center;
   column-gap: 10px;
 }
-.join-item:hover {
+.join--list__item:hover {
   background-color: #2196f3;
   background-size: 44px;
   border-radius: 50%;
 }
-.join-link {
+.join--list__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -54,43 +80,17 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.join-link:hover {
+.join--list__link:hover {
   background-color: #2196f3;
 }
-.footer-icon {
+.join--list__icon {
   fill: #fff;
-}
-.web-address {
-  margin-top: 20px;
-  font-family: $font-family;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: #fff;
-  font-style: normal;
-}
-.email {
-  font-family: $font-family;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.number {
-  font-family: $font-family;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 .form {
   margin-top: 12px;
   color: red;
 }
-.form-title {
+.form__title {
   font-family: $font-family;
   font-weight: 700;
   font-size: 14px;
@@ -99,7 +99,7 @@
   color: #fff;
   margin-bottom: 20px;
 }
-.form-input {
+.form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   width: 358px;
@@ -108,7 +108,7 @@
   background: transparent;
   padding-left: 16px;
 }
-.form-button {
+.form__button {
   border-radius: 4px;
   width: 200px;
   padding: 10px 28px;
@@ -123,10 +123,10 @@
   margin-left: 12px;
   position: relative;
 }
-.form-span {
+.form__span {
   margin-right: 10px;
 }
-.form-icon {
+.form__icon {
   fill: #fff;
   position: absolute;
   top: 13px;

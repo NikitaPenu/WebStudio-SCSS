@@ -1,4 +1,22 @@
-.w-names {
+.web--team__title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.teamets-list {
+  display: flex;
+  column-gap: 30px;
+}
+.teamets--list__item {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+.teamets--list__title {
   font-family: $font-family;
   font-weight: 500;
   font-size: 16px;
@@ -7,7 +25,7 @@
   color: #212121;
   padding-top: 30px;
 }
-.work {
+.teamets--list__text {
   font-family: $font-family;
   font-weight: 400;
   font-size: 16px;
@@ -23,15 +41,6 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.teamets-list {
-  display: flex;
-  column-gap: 30px;
-}
-.teamets-item {
-  background-color: #fff;
-  border-radius: 0 0 4px 4px;
-  flex-basis: calc((100% - 90px) / 4);
-}
 .teammates-link {
   display: flex;
   width: 44px;
@@ -44,9 +53,9 @@
 .teammates-link:hover {
   background-color: #2196f3;
 }
-.teammates-icon {
+.socials--list__icon {
   fill: #afb1b8;
 }
-.teammates-link:hover .teammates-icon {
+.teammates-link:hover .socials--list__icon {
   fill: #fff;
 }

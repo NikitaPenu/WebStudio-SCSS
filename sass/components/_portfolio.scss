@@ -2,16 +2,16 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-title {
+.projects__title {
   display: none;
 }
-.button-list {
+.projects__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   column-gap: 8px;
 }
-.button {
+.projects__button {
   padding: 6px 22px;
   font-family: $font-family;
   font-weight: 500;
@@ -24,29 +24,29 @@
   border: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:hover {
+.projects__button:hover {
   background-color: #2196f3;
   color: #fff;
 }
-.project-list {
+.project__list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
 }
-.project-item {
+.project__item {
   flex-basis: calc((100% - 2 * 30px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-item:hover {
+.project__item:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-.project-overlay {
+.project__overlay {
   position: relative;
   overflow: hidden;
 }
-.overlay-text {
+.overlay__text {
   transition: transform 750ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
 bottom: 0;
@@ -60,14 +60,14 @@ letter-spacing: 0.03em;
 color: #fff;
 background-color: rgba(33, 150, 243, 0.9);
 }
-.project-item:hover .overlay-text {
+.project__item:hover .overlay__text {
   transform: translateY(0);
 }
-.project-item-content {
+.project--item__content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
-.project-name {
+.project__name {
   font-family: $font-family;
   font-weight: 700;
   font-size: 18px;
@@ -76,7 +76,7 @@ background-color: rgba(33, 150, 243, 0.9);
   color: #212121;
   margin-bottom: 4px;
 }
-.project-text {
+.project__text {
   font-family: $font-family;
   font-weight: 400;
   font-size: 16px;
